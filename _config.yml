@@ -1,97 +1,90 @@
-# Site settings
-title: Matrix64 Blog
-SEOTitle: 衡彬的博客 | Matrix64 Blog
-header-img: img/home-bg.jpg
-email: royalflare0063@gmail.com
-description: " 一个CGer的自我修养 "
-keyword: "衡彬, Matrix64衡彬, Matrix64, @Matrix64, 衡彬的博客, Matrix64 Blog, 博客, 个人网站, 编程, Maya, 3DCG, Unity, Unreal"
-url: "https://hengbin.me"              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+title:            Matrix 64
+description:      
+disqus_shortname: M64
+reading_time:     true
+words_per_minute: 200
+# Your site's domain goes here (eg: https://mmistakes.github.io, http://yourdomain.com, etc)
+# When testing locally leave blank or use http://localhost:4000
+url:
 
-# Publish posts or collection documents with a future date.
-future: true
+# Owner/author information
+owner:
+  name:           Matrix64
+  avatar:         avatar.jpg
+  bio:            "当たり前を疑えよ<br>看似理所应当的事情才是值得怀疑的"
+  email:          arcsmith0063@outlook.com
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:        
+  facebook:       
+  github:         
+  stackexchange:  
+  linkedin:       
+  instagram:      
+  flickr:         
+  tumblr:         
+  # google plus id, include the '+', eg +mmistakes
+  google_plus:
 
-# SNS settings
-RSS: false
-#weibo_username:     huxpro
-#zhihu_username:     huxpro
-#github_username:    huxpro
-#twitter_username:   huxpro
-#facebook_username:  huxpro
-#linkedin_username:  firstname-lastname-idxxxx
+# Background image to be tiled on all pages
+background: 
 
+# Analytics and webmaster tools stuff goes here
+google_analytics:   
+google_verify:      
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:         
 
-
-# Build settings
-# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Asia/Hong_Kong
+future:      false  # publish future dated posts --  true, false (default) 
 highlighter: rouge
-permalink: pretty
-paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+markdown:    kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-gist
+#  - jekyll-feed
+sass:
+  sass_dir: _sass
+  style: compressed
 
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title/
 
+# Amount of post to show on home page
+paginate: 5
 
-# Gems
-# from PR#40, to support local preview for Jekyll 3.0
-plugins: [jekyll-paginate]
-
-
-
-# Markdown settings
-# replace redcarpet to kramdown,
-# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
-# document: http://jekyllrb.com/docs/configuration/#kramdown
-markdown: kramdown
 kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
+  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
 
-
-
-# Disqus settings
-disqus_username: hux
-
-# Netease settings
-netease_comment: false
-
-
-
-# Analytics settings
-# Baidu Analytics 
-# ba_track_id: [your track id]
-
-# Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
-
-
-
-# Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "一首届不到的恋送给在座各位"
-sidebar-avatar: /img/avatar-Matrix64.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
-
-
-
-# Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
-
-
-
-# Progressive Web Apps
-chrome-tab-theme-color: "#000000"
-service-worker: true
-
-
-
-# Friends
-friends: [
-    {
-    #     title: "Su",
-    #     href: "http://su.gallery/"
-    # },{
-    #    title: "乱序",
-    #    href: "http://mida.re/"
-    }
-]
+include: 
+  - .htaccess
+exclude: 
+  - "*.less"
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - config
+  - gulpfile.js
+  - lib
+  - log
+  - node_modules
+  - package.json
+  - spec
+  - tmp
+  - temp
