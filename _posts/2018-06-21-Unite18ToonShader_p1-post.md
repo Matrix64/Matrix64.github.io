@@ -98,7 +98,8 @@ shader其实就是记录了如何将原始数据进行**处理**，**组合**并
 在早期的游戏光照模型理论中，只关心光照经由光源射出后，在物体表面反射一次之后直接被摄影机捕捉到的光线。这种光线被分成四个部分：**环境光照(ambient)**、**漫反射(diffuse)**、**高光反射(specular)**和**自发光(emissive)**。
 其中，漫反射光照就是按照**兰伯特定律(Lambert's Law)**进行计算:反射光线的强度与表面法线和光源方向之间夹角的余弦值成正比。下面是反射部分的计算公式：
 
-$$C_{diffuse} = (C_{light}·m_{diffuse})max(0, \hat{n}·\hat{l})$$
+$$
+C_{diffuse} = (C_{light}·m_{diffuse})max(0, \hat{n}·\hat{l})$$
 
 其中，**$$C_{light}$$**为主光源颜色，**$$m_{diffuse}$$**为漫反射颜色，**$$ \hat{n}$$**为表面法线方向，**$$\hat{l}$$**为光源方向。max函数是为了避免点击结果出现负值。
 
@@ -106,11 +107,15 @@ $$C_{diffuse} = (C_{light}·m_{diffuse})max(0, \hat{n}·\hat{l})$$
 
 广义的半兰伯特光照模型公式如下：
 
-$$C_{diffuse} = (C_{light}·m_{diffuse})(\alpha(\hat{n}·\hat{l})+\beta)$$
+$$
+C_{diffuse} = (C_{light}·m_{diffuse})(\alpha(\hat{n}·\hat{l})+\beta)
+$$
 
 可以看出这里没有对点积结果用max函数截取，而是通过对结果进行**$$\alpha$$**倍的缩放和**$$\beta$$**大小的偏移，绝大多数情况下**$$\alpha$$**和**$$\beta$$**的均值取为0.5，公式既为：
 
-$$C_{diffuse} = (C_{light}·m_{diffuse})(0.5(\hat{n}·\hat{l})+0.5)$$
+$$
+C_{diffuse} = (C_{light}·m_{diffuse})(0.5(\hat{n}·\hat{l})+0.5)
+$$
 
 这里将点积的范围从[-1,1]重映射到[0,1],保留了之前被截取的有效数据。
 需要注意的是，半兰伯特光照模型**没有任何物理依据**，仅仅是一种技术导向的视觉加强技术。可以参考[Valve网站](https://developer.valvesoftware.com/wiki/Half_Lambert)查看详细说明。
