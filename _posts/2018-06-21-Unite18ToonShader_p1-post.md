@@ -17,6 +17,7 @@ Unity3D Japan在今年5月8日的Unite Tokyo 2018大会上有一个关于实时�
 
 🎞油管视频地址：[【Unite Tokyo 2018】トゥーンシェーダートークセッション#1『リアルタイムトゥーンシェーダー徹底トーク』](https://www.youtube.com/watch?v=gi4XO0WiRcM&t)
 
+Part2：[【Unite Tokyo 2018】ToonShader对话环节#1『RealtimeToonShader彻谈』Part2](https://matrix64.github.io/Unite18ToonShader_p2-post/)
 ---
 
 ## ✯主讲人
