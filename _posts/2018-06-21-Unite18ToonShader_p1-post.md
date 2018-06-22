@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Unite Tokyo 2018 笔记[1]"
+title: "Unite Tokyo 2018 笔记 [1-1]"
 description: "记录Unite 2018 关于RealtimeToonShader方面内容"
 modified: 2018-06-20
 tags: [Unite Tokyo 2018, Unity, Shader, 笔记]
