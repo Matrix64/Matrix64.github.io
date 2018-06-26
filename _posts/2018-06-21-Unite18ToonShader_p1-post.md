@@ -19,6 +19,8 @@ Unity3D Japan在今年5月8日的Unite Tokyo 2018大会上有一个关于实时�
 
 Part2：[【Unite Tokyo 2018】ToonShader对话环节#1『RealtimeToonShader彻谈』Part2](https://matrix64.github.io/Unite18ToonShader_p2-post/)
 
+Part3：[【Unite Tokyo 2018】ToonShader对话环节#1『RealtimeToonShader彻谈』Part2](https://matrix64.github.io/Unite18ToonShader_p3-post/)
+
 ---
 
 ## ✯主讲人
@@ -43,7 +45,7 @@ Part2：[【Unite Tokyo 2018】ToonShader对话环节#1『RealtimeToonShader彻�
 ---
 [1]关于UTS的细节构成可以参考[Unite Japan 2017](https://www.youtube.com/watch?v=6aNB9LhSx7g&index=)。
 
-## ✯ToonShader设计时的要点
+## ✯ToonShader相关的提问
 
 ### 1.「近似动漫的画面表现」
 

@@ -18,6 +18,8 @@ Unity3D Japan在今年5月8日的Unite Tokyo 2018大会上有一个关于实时�
 
 Part1：[【Unite Tokyo 2018】ToonShader对话环节#1『RealtimeToonShader彻谈』Part1](https://matrix64.github.io/Unite18ToonShader_p1-post/)
 
+Part1：[【Unite Tokyo 2018】ToonShader对话环节#1『RealtimeToonShader彻谈』Part3](https://matrix64.github.io/Unite18ToonShader_p3-post/)
+
 ---
 
 ## ✯ToonShader设计时的要点·续
@@ -45,11 +47,11 @@ Part1：[【Unite Tokyo 2018】ToonShader对话环节#1『RealtimeToonShader彻�
 
 ## ✯在与模型组工作人员的配合过程中遇到的事情
 
-### 制作DCC插件方便生产
+### 1.制作DCC插件方便生产
 
 在游戏开发的过程中，程序开发完成shader之后，美术人员就要配合shader来调整UV，制作贴图，这个过程中如果能有一些针对性强的插件来制作，就可以更快的完成整个项目。比如顶点色编辑工具，法线编辑工具等等。我自己也会用一些Photoshop的插件来方便贴图的制作与打包导出等等。
 
-### 指导模型制作规范与传达Shader的原理
+### 2.指导模型制作规范与传达Shader的原理
 
 - 因为Shader与模型是配合工作的，所以介绍的时候也需要一起介绍
 
@@ -61,7 +63,7 @@ Part1：[【Unite Tokyo 2018】ToonShader对话环节#1『RealtimeToonShader彻�
 
 - 同时也会举办shader学习会，所以多半的模型师都会自己设计shader
 
-### 与外部技术团队合作进行插件开发
+### 3.与外部技术团队合作进行插件开发
 
 京野氏当初与外部公司合作开发了法线编辑工具，也是为了方便后续的贴图制作流程。
 
@@ -101,7 +103,7 @@ GitHub地址是：https://github.com/unity3d-jp/NormalPainter
 
 而且其实GOTETZ也有美术方面功底，参与制作了罪恶装备的登场角色模型制作。
 
-### 「shadow」与「shade」的相关处理
+### 4.「shadow」与「shade」的相关处理
 
 这里先给出一张示意图
 
