@@ -11,8 +11,8 @@
 	width: 54px;
 	height: 54px;
 	display: block;
-	background: #ddd url(/images/upArrow.png) no-repeat center center;
-	background-color: #aaa;
+	background: url(/images/upArrow.png) no-repeat center center;
+	//background-color: #aaa;
 	-webkit-border-radius: 7px;
 	-moz-border-radius: 7px;
 	border-radius: 7px;
@@ -21,5 +21,6 @@
 	transition: 1s;
   }
   #back-top a:hover {
-	background-color: #777;
+	background: url(/images/upArrow2.png) no-repeat center center;
+	transition: 1s;
   }
