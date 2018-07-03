@@ -145,4 +145,6 @@ $$
 
 这也解释了为什么在使用UnityObjectToViewPos来变换法线的时候会出错了。
 
+感谢友人给出的宝贵建议。
+
 参考网址：http://www.lighthouse3d.com/tutorials/glsl-12-tutorial/the-normal-matrix/
