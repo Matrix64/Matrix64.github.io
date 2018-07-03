@@ -40,7 +40,7 @@
         {% if page.modified %}<span>Updated on <span class="entry-date date published updated"><time datetime="{{ page.modified }}">{{ page.modified | date: "%B %d, %Y" }}</time></span></span>
         <span class="author vcard"><span class="fn">{{ site.owner.name }}</span></span>{% endif %}
         {% if page.share != false %}{% include social-share.html %}{% endif %}
-        {% if page.comments != false %}{% include livere_comments.html %}{% endif %}
+        
       </footer>
     </div><!-- /.entry-content -->
   </article>
