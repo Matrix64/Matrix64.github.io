@@ -93,7 +93,7 @@ shader其实就是记录了如何将原始数据进行**处理**，**组合**并
 我们能看到物体都是基于物体表面对光线的一系列**散射(scattering)**与**吸收(absorption)**的共同作用结果，散射又可以分为散射到物体内部的**折射(refraction)**与**透射(transmission)**和散射到物体外部的**反射(reflection)**
 
 <figure>
-	<a href="http://static.zybuluo.com/candycat/7gu6p5xdmzngz53iaa011joy/scattering.png"><img src="http://static.zybuluo.com/candycat/7gu6p5xdmzngz53iaa011joy/scattering.png" alt=""></a>
+	<a href="/images/unite/toonShader/scattering.jpg"><img src="/images/unite/toonShader/scattering.jpg" alt=""></a>
 	<figcaption>《Unity Shader入门精要》P122 图6.2</figcaption>
 </figure>
 
