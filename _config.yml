@@ -1,5 +1,6 @@
-title:            Matrix 64
-description:      
+title: Matrix 64
+name: Matrix 64 Blog
+description: 希望你我都能有所收获
 #disqus_shortname: M64
 livere_uid: MTAyMC8zNzc5MC8xNDMyMQ==
 livere_shortname: M64
@@ -7,7 +8,7 @@ reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: https://mmistakes.github.io, http://yourdomain.com, etc)
 # When testing locally leave blank or use http://localhost:4000
-url:
+url: 
 
 # Owner/author information
 owner:
@@ -45,7 +46,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-gist
-#  - jekyll-feed
+  - jekyll-feed
 sass:
   sass_dir: _sass
   style: compressed
@@ -55,7 +56,6 @@ permalink:   /:categories/:title/
 
 # Amount of post to show on home page
 paginate: 5
-
 excerpt_separator:  '<!-- more -->'
 
 kramdown:
