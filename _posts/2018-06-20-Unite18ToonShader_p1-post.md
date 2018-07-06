@@ -124,7 +124,7 @@ $$
 
 这里给出一种在UnityShader中半兰伯特光照模型的示例：
 
-```c#
+``` c#
 float4 frag(v2f i) : SV_Target {
   i.normal = normalize(i.normal);
   float3 lightDir = normalize(_worldSpaceLightDir.xyz);
