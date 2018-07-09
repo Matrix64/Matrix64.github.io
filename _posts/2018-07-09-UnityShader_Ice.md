@@ -23,11 +23,11 @@ image:
 
 - 透明与折射效果的可控
 
-- 模拟冰块内部高亮感(FF水晶风格)
+- 模拟冰块内部高亮感，强度随时间波动(FF水晶风格)
 
 <figure>
  <a href="/images/ice_show_1.gif"><img src="/images/ice_show_1.gif" alt=""></a>
- <figcaption>冰冻效果</figcaption>
+ <figcaption>基础冰冻效果</figcaption>
 </figure>
 
 <figure>
@@ -188,3 +188,7 @@ Shader "Matrix64/IceShader" {
  Fallback "Legacy Shaders/VertexLit"
 }
 ```
+<figure>
+ <a href="/images/ice_show_4.gif"><img src="/images/ice_show_4.gif" alt=""></a>
+ <figcaption>效果展示</figcaption>
+</figure>
