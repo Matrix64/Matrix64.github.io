@@ -6,7 +6,11 @@ image:
   credit: unsplash
   creditlink: https://unsplash.com/photos/5ExRBlHu1DA
 comments: false
-modified: 2018-06-20
+modified: 2018-07-30
 ---
 
-一个90后的科技宅男，在程序与美术的世界努力穿行
+Hey Guys!
+
+我是衡彬，一个90后的科技宅男，目前从事于AR/VR内容制作工作，也经常自己捣鼓一些软件插件，是个在技术道路上不愿止步的人。
+
+很高兴认识你XD
