@@ -3,5 +3,15 @@
     <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
     <li class="twitter"><a href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
     <li class="googleplus"><a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+    <li class="wechat">
+          <a class="qrcode"><span class="count"><i class="fa fa-weixin"></i> Moments</span></a>
+          <div class="popPanel" style="right:66px;">
+            <div class="popPanel-inner">
+              <div class="qrcodePanel">
+                  <div id="qrcode"></div><script type="text/javascript">new QRCode(document.getElementById("qrcode"), "{{ site.url }}{{ page.url }}");</script>
+                <p>微信扫描二维码用手机看文章</p></div>
+            </div>
+          </div>
+      </li>
   </ul>
 </div><!-- /.social-share -->

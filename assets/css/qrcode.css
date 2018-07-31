@@ -1,0 +1,9 @@
+
+.popPanel{width:205px;height:214px; position:fixed;right:90px;top:300px;z-index:10000;overflow:hidden;display:none; }
+.popPanel-inner{width:205px;height:220px;position:relative;overflow:hidden;}
+.arrowPanel{width:10px;height:210px;position:absolute;right:1px;top:102px;}
+.arrowPanel .arrow01{width:0;height:0;font-size:0;line-height:0;border-top:10px solid transparent;_border-top:10px solid black;_filter:chroma(color=black);border-right:10px solid transparent;_border-right:10px solid black;_filter:chroma(color=black);border-bottom:10px solid transparent;_border-bottom:10px solid black;_filter:chroma(color=black);border-left:10px solid #ddd;position:absolute;bottom:0;position:absolute;left:2px;top:0;}
+.arrowPanel .arrow02{width:0;height:0;font-size:0;line-height:0;border-top:10px solid transparent;_border-top:10px solid black;_filter:chroma(color=black);border-right:10px solid transparent;_border-right:10px solid black;_filter:chroma(color=black);border-bottom:10px solid transparent;_border-bottom:10px solid black;_filter:chroma(color=black);border-left:10px solid #fff;position:absolute;bottom:0;position:absolute;left:0;top:0;}
+.qrcodePanel{width:194px; height:212px; background:#fff;text-align:center;border:solid 5px #ddd;position:absolute;left:0;top:0;overflow:hidden;}
+.qrcodePanel img{width:174px;height:174px;border:none;padding:5px 5px 0px 5px;align-items: center;}
+.qrcodePanel p{font-size:12px;color:#666;line-height:20px;letter-spacing:1px;}
