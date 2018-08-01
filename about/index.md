@@ -6,6 +6,7 @@ image:
   credit: unsplash
   creditlink: https://unsplash.com/photos/5ExRBlHu1DA
 comments: false
+share: false
 modified: 2018-07-30
 ---
 
