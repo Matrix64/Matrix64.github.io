@@ -77,3 +77,5 @@ image:
 </figure>
 
 更多角度的图片就放在[A站](https://www.artstation.com/artwork/x8Jr1)了。
+
+参考文档：[Unity Photogrammetry Workflow](https://unity3d.com/files/solutions/photogrammetry/Unity-Photogrammetry-Workflow_2017-07_v2.pdf)
