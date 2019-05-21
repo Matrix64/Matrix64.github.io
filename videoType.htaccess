@@ -1,0 +1,3 @@
+AddType video/webM .WebM
+AddType video/mov .mov
+AddType video/mp4 .mp4
