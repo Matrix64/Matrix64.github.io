@@ -112,7 +112,7 @@ public class SetProjectorToShader : MonoBehaviour
 }
 ```
 
-这个脚本负责收集位置信息、缩放信息和材质信息，然后传给后面用于刷新RT的脚本，这个脚本挂在投射器物体上，同时物体上需要增加一个摄影机组建，这个摄影机不需要打开，只要设置好ViewPortRect的比例成1:1来正确计算投射位置就可以了
+这个脚本负责收集位置信息、缩放信息和材质信息，然后传给后面用于刷新RT的脚本，这个脚本挂在投射器物体上，同时物体上需要增加一个摄影机组件，这个摄影机不需要打开，只要设置好ViewPortRect的比例成1:1来正确计算投射位置就可以了
 <figure>
  <a href="\images\20200301\t2.jpg"><img src="\images\20200301\t2.jpg" alt=""></a>
  <figcaption>JOJO我不做摄影机啦！</figcaption>
