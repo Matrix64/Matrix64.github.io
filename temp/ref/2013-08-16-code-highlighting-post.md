@@ -5,7 +5,7 @@ description: "Demo post displaying the various ways of highlighting code in Mark
 modified: 2016-06-01T15:27:45-04:00
 tags: [sample post, code, highlighting]
 image:
-  feature: abstract-10.jpg
+  feature: abstract-10.webp
   credit: dargadgetz
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---

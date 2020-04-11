@@ -5,7 +5,7 @@ description: "所以为什么不直接用Unity自带的呢"
 modified: 2020-03-01
 tags: [Unity, C#]
 image:
-  feature: 20200301\title.jpg
+  feature: 20200301_01_01.webp
 ---
 
 ## · 先是一段吐槽
@@ -14,7 +14,7 @@ image:
 ### 攻击预警圈
 
 <figure>
- <a href="\images\20200301\OctoGrabbing.jpg"><img src="\images\20200301\OctoGrabbing.jpg" alt=""></a>
+ <a href="\images\20200301_01_02.webp"><img src="\images\20200301_01_02.webp" alt=""></a>
  <figcaption>WR二连，有的人活着但他经死了</figcaption>
 </figure>
 
@@ -47,7 +47,7 @@ image:
 首先准备一个技能预警效果的mat，这个mat的shader本身没有特殊的要求，按照美术效果来实现就好，不同的预警效果可以制作多个Prefab，替换材质加载就可以了
 
 <figure>
- <a href="\images\20200301\t1.jpg"><img src="\images\20200301\t1.jpg" alt=""></a>
+ <a href="\images\20200301_01_03.webp"><img src="\images\20200301_01_03.webp" alt=""></a>
  <figcaption>比如我这个</figcaption>
 </figure>
 
@@ -114,7 +114,7 @@ public class SetProjectorToShader : MonoBehaviour
 
 这个脚本负责收集位置信息、缩放信息和材质信息，然后传给后面用于刷新RT的脚本，这个脚本挂在投射器物体上，同时物体上需要增加一个摄影机组件，这个摄影机不需要打开，只要设置好ViewPortRect的比例成1:1来正确计算投射位置就可以了
 <figure>
- <a href="\images\20200301\t2.jpg"><img src="\images\20200301\t2.jpg" alt=""></a>
+ <a href="\images\20200301_01_04.webp"><img src="\images\20200301_01_04.webp" alt=""></a>
  <figcaption>JOJO我不做摄影机啦！</figcaption>
 </figure>
 
@@ -207,7 +207,7 @@ finalColor.rgb =  lerp(finalColor.rgb, projector.rgb, projector.a);
 ## 完成？
 
 <figure>
- <a href="\images\20200301\a1.gif"><img src="\images\20200301\a1.gif" alt=""></a>
+ <a href="\images\a1.gif"><img src="\images\a1.gif" alt=""></a>
  <figcaption>如假包换的Projector</figcaption>
 </figure>
 
@@ -227,6 +227,6 @@ finalColor.rgb =  lerp(finalColor.rgb, projector.rgb, projector.a);
 其实如果是小范围的技能预警圈，或者说限定到RTS那种俯视视角的话，可以只使用Shader的Stencil来手动操作渲染层级实现不被遮挡的效果，没必要用上面这套麻烦且不一定稳定的操作，我这里也只是因为是第三人称自由视角，预警圈尺寸也不固定，很容易受到透视影响导致没办法用Stencil来实现
 
 <figure>
- <a href="\images\20200301\t3.jpg"><img src="\images\20200301\t3.jpg" alt=""></a>
+ <a href="\images\20200301_01_05.webp"><img src="\images\20200301_01_05.webp" alt=""></a>
  <figcaption>比如这种圈</figcaption>
 </figure>

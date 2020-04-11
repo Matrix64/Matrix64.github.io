@@ -6,7 +6,7 @@ modified: 2018-06-19
 tags: [Hello World]
 image:
   background: triangular.png
-  feature: helloworld.jpg
+  feature: 20180619_01_01.webp
   credit: unsplash
   creditlink: https://unsplash.com/photos/XlYmpmNJhf8
 ---

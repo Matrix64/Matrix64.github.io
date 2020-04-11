@@ -2,7 +2,7 @@
 layout: page
 title: About me | 关于我
 image:
-  feature: abstract-5.jpg
+  feature: abstract-5.webp
   credit: unsplash
   creditlink: https://unsplash.com/photos/5ExRBlHu1DA
 comments: false

@@ -73,8 +73,8 @@ Here is the block you might want to use:
 
 ```liquid
 {% raw %}{% capture images %}
-	/images/abstract-10.jpg
-	/images/abstract-11.jpg
+	/images/abstract-10.webp
+	/images/abstract-11.webp
 	http://upload.wikimedia.org/wikipedia/en/2/24/Lenna.png
 {% endcapture %}
 {% include gallery images=images caption="Test images" cols=3 %}{% endraw %}
@@ -89,8 +89,8 @@ Available values: [1..3].
 It will look something like this:
 
 {% capture images %}
-	/images/abstract-10.jpg
-	/images/abstract-11.jpg
+	/images/abstract-10.webp
+	/images/abstract-11.webp
 	http://upload.wikimedia.org/wikipedia/en/2/24/Lenna.png
 {% endcapture %}
 {% include gallery images=images caption="Test images" cols=3 %}

@@ -5,7 +5,7 @@ description: "本篇记录了一个照片场景的还原过程"
 modified: 2018-08-20
 tags: [Maya ,Unreal 4, Arch]
 image:
-  feature: /0820_UnrealArchLofty_Title.jpg
+  feature: 20180820_01_01.webp
 ---
 
 这次是新的Unreal场景测试

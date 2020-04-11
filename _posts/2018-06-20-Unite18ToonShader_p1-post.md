@@ -5,7 +5,7 @@ description: "记录Unite 2018 关于RealtimeToonShader方面内容"
 modified: 2018-06-20
 tags: [Unite Tokyo 2018, Unity, Shader, 笔记]
 image:
-  feature: unite\toonShader\cover.jpg
+  feature: 20180620_01_01.webp
 ---
 
 
@@ -53,7 +53,7 @@ Part3：[【Unite Tokyo 2018】ToonShader对话环节#1『RealtimeToonShader彻�
 日式卡通渲染的思路与日式动漫上色思路十分接近，大体上分为**高光**(亮部的亮部)、**基本色**(亮部)、1**号阴影**(暗部)和**2号阴影**(暗部的暗部)。
 
 <figure>
-	<a href="/images/unite/toonShader/color.jpg"><img src="/images/unite/toonShader/color.jpg" alt=""></a>
+	<a href="/images/20180620_01_02.webp"><img src="/images/20180620_01_02.webp" alt=""></a>
 	<figcaption>颜色设定示意图</figcaption>
 </figure>
 
@@ -74,7 +74,7 @@ Part3：[【Unite Tokyo 2018】ToonShader对话环节#1『RealtimeToonShader彻�
 本村氏在公司内部为了提高同事们的shader水平，制作了一份面向美术的Shader入门学习资料，这里把shader的制作过程比喻成咖喱的制作过程，我虽然没做过咖喱，不过看起来似乎确实没那么难。
 
 <figure>
-	<a href="/images/unite/toonShader/shaderLike.jpg"><img src="/images/unite/toonShader/shaderLike.jpg" alt=""></a>
+	<a href="/images/20180620_01_03.webp"><img src="/images/20180620_01_03.webp" alt=""></a>
 	<figcaption>把shader比喻成料理配方</figcaption>
 </figure>
 
@@ -82,7 +82,7 @@ shader其实就是记录了如何将原始数据进行**处理**，**组合**并
 这里展示了一个简易CelShader的组合思路
 
 <figure>
-	<a href="/images/unite/toonShader/SimpleShaderTep.jpg"><img src="/images/unite/toonShader/SimpleShaderTep.jpg" alt=""></a>
+	<a href="/images/20180620_01_04.webp"><img src="/images/20180620_01_04.webp" alt=""></a>
 	<figcaption>类比料理配方写法的shader</figcaption>
 </figure>
 
@@ -93,7 +93,7 @@ shader其实就是记录了如何将原始数据进行**处理**，**组合**并
 我们能看到物体都是基于物体表面对光线的一系列**散射(scattering)**与**吸收(absorption)**的共同作用结果，散射又可以分为散射到物体内部的**折射(refraction)**与**透射(transmission)**和散射到物体外部的**反射(reflection)**
 
 <figure>
-	<a href="/images/unite/toonShader/scattering.jpg"><img src="/images/unite/toonShader/scattering.jpg" alt=""></a>
+	<a href="/images/20180620_01_05.webp"><img src="/images/20180620_01_05.webp" alt=""></a>
 	<figcaption>《Unity Shader入门精要》P122 图6.2</figcaption>
 </figure>
 
@@ -152,7 +152,7 @@ float4 frag(v2f i) : SV_TARGET {
 ```
 
 <figure>
-	<a href="/images/unite/toonShader/liveMask.jpg"><img src="/images/unite/toonShader/liveMask.jpg" alt=""></a>
+	<a href="/images/20180620_01_06.webp"><img src="/images/20180620_01_06.webp" alt=""></a>
 	<figcaption>实时计算的遮罩将光影表现的更加灵活</figcaption>
 </figure>
 
@@ -163,7 +163,7 @@ float4 frag(v2f i) : SV_TARGET {
 [2]DCC软件:Digital Content Creat Tool的缩写。
 
 <figure>
-	<a href="/images/unite/toonShader/DCCShader.jpg"><img src="/images/unite/toonShader/DCCShader.jpg" alt=""></a>
+	<a href="/images/20180620_01_07.webp"><img src="/images/20180620_01_07.webp" alt=""></a>
 	<figcaption>DCC软件中的效果(左)与游戏实际画面(右)</figcaption>
 </figure>
 

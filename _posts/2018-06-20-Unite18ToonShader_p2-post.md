@@ -5,7 +5,7 @@ description: "记录Unite 2018 关于RealtimeToonShader方面内容"
 modified: 2018-06-20
 tags: [Unite Tokyo 2018, Unity, Shader, 笔记]
 image:
-  feature: unite\toonShader\cover.jpg
+  feature: 20180620_01_01.webp
 ---
 
 # 【Unite Tokyo 2018】ToonShader对话环节#1『RealtimeToonShader彻谈』Part2
@@ -41,7 +41,7 @@ Part3：[【Unite Tokyo 2018】ToonShader对话环节#1『RealtimeToonShader彻�
 除了上面提到的这几点外，在UV处理的过程中也要通过尽量保持水平垂直的UV边界来避免锯齿感。
 
 <figure>
-	<a href="/images/unite/toonShader/LessTex.jpg"><img src="/images/unite/toonShader/LessTex.jpg" alt=""></a>
+	<a href="/images/20180620_02_01.webp"><img src="/images/20180620_02_01.webp" alt=""></a>
 	<figcaption>GGXrd的贴图展示</figcaption>
 </figure>
 
@@ -108,7 +108,7 @@ GitHub地址是：https://github.com/unity3d-jp/NormalPainter
 这里先给出一张示意图
 
 <figure>
-	<a href="/images/unite/toonShader/shadow.jpg"><img src="/images/unite/toonShader/shadow.jpg" alt=""></a>
+	<a href="/images/20180620_02_02.webp"><img src="/images/20180620_02_02.webp" alt=""></a>
 	<figcaption>光影示意图</figcaption>
 </figure>
 
@@ -117,7 +117,7 @@ GitHub地址是：https://github.com/unity3d-jp/NormalPainter
 在卡通渲染过程中，有一些阴影的作用是为了凸显形状(フォルム)，这些大多是自身阴影，用角色举例就是出现在手臂下方或者衣服褶皱的部分的阴影。比如为了强调手臂的圆柱体的形状而产生的阴影。
 
 <figure>
-	<a href="/images/unite/toonShader/shade.jpg"><img src="/images/unite/toonShader/shade.jpg" alt=""></a>
+	<a href="/images/20180620_02_03.webp"><img src="/images/20180620_02_03.webp" alt=""></a>
 	<figcaption>光影示意图</figcaption>
 </figure>
 
@@ -126,14 +126,14 @@ GitHub地址是：https://github.com/unity3d-jp/NormalPainter
 为了方便控制角色面部的投影，可以通过灯光排除来设置只影响面部的灯光和用于面部以外的灯光
 
 <figure>
-	<a href="/images/unite/toonShader/twoLight.jpg"><img src="/images/unite/toonShader/twoLight.jpg" alt=""></a>
+	<a href="/images/20180620_02_04.webp"><img src="/images/20180620_02_04.webp" alt=""></a>
 	<figcaption>两种不同用途的灯光</figcaption>
 </figure>
 
 如果灯光本身任旧难以表现出想要的阴影，可以尝试用一块勾选ShadowOnly的面片来产生阴影
 
 <figure>
-	<a href="/images/unite/toonShader/ShadowPlane.jpg"><img src="/images/unite/toonShader/ShadowPlane.jpg" alt=""></a>
+	<a href="/images/20180620_02_05.webp"><img src="/images/20180620_02_05.webp" alt=""></a>
 	<figcaption>两种不同用途的灯光</figcaption>
 </figure>
 

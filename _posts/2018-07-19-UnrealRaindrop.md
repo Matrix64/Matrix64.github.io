@@ -5,7 +5,7 @@ description: "本篇记录了一个街头雨景的制作过程"
 modified: 2018-07-19
 tags: [Unreal 4, Substance Designer]
 image:
-  feature: /UnrealRaindrop_Title.jpg
+  feature: 20180719_01_01.webp
 ---
 
 最近在UE论坛里看到了这篇雨景教程，Mark一下制作过程
@@ -25,7 +25,7 @@ image:
 
 这里给出我测试时用的节点图：
 <figure>
- <a href="/images/wet_graph_full.jpg"><img src="/images/wet_graph_mini.jpg" alt=""></a>
+ <a href="/images/20180719_01_02.webp"><img src="/images/20180719_01_03.webp" alt=""></a>
  <figcaption>Substance Designer中对原始素材进行再加工</figcaption>
 </figure>
 
@@ -34,7 +34,7 @@ image:
 雨滴在水面的波纹效果也是用Substance Designer来制作，因为Designer不支持输出动态图，所以这里实际是输出了16张帧动画之后在Photoshop中合并成一张4*4的动画图表。关于合并的技巧，最初我是手动移动图层位置进行合并，之后我发现在Photoshop「文件」→「自动」→「联系表」功能中，就可以自动按照序号对多张图片进行合并。
 
 <figure>
- <a href="/images/water_normal.jpg"><img src="/images/water_normal.jpg" alt=""></a>
+ <a href="/images/20180719_01_04.webp"><img src="/images/20180719_01_04.webp" alt=""></a>
  <figcaption>导出的其中一张法线贴图</figcaption>
 </figure>
 
@@ -43,14 +43,14 @@ image:
 在制作地面材质的时候，法线需要用之前mask的B通道对地面法线与波纹法线再次混合后输出。
 
 <figure>
- <a href="/images/wet_material_full.jpg"><img src="/images/wet_material_mini.jpg" alt=""></a>
+ <a href="/images/20180719_01_05.webp"><img src="/images/20180719_01_06.webp" alt=""></a>
  <figcaption>地面材质network</figcaption>
 </figure>
 
 然后是雨滴材质，这个就是因人而异了，这里给出原作者的做法：
 
 <figure>
- <a href="/images/raindrop_material_full.jpg"><img src="/images/raindrop_material_mini.jpg" alt=""></a>
+ <a href="/images/20180719_01_07.webp"><img src="/images/20180719_01_08.webp" alt=""></a>
  <figcaption>雨滴材质network</figcaption>
 </figure>
 
@@ -64,7 +64,7 @@ image:
 同时场景内还用到了BoxReflectionCapture进行反射捕捉，ExponentialHeightFog来增加一些体积感，PostProcessVolume进行后期处理。
 
 <figure>
- <a href="/images/0719_env.jpg"><img src="/images/0719_env.jpg" alt=""></a>
+ <a href="/images/20180719_01_09.webp"><img src="/images/20180719_01_09.webp" alt=""></a>
  <figcaption>场景十分简单</figcaption>
 </figure>
 
@@ -75,7 +75,7 @@ image:
 因为雨滴通常需要很大的粒子数量才能正常模拟，然而默认的cpu渲染粒子明显会受到性能限制，这里给粒子添加GPU Sprites数据类型让粒子转换成GPU渲染
 
 <figure>
- <a href="/images/0719_particle_outline.jpg"><img src="/images/0719_particle_outline.jpg" alt=""></a>
+ <a href="/images/20180719_01_10.webp"><img src="/images/20180719_01_10.webp" alt=""></a>
  <figcaption>雨滴粒子</figcaption>
 </figure>
 

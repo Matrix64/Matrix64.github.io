@@ -5,7 +5,7 @@ description: "记录Unite 2018 关于RealtimeToonShader方面内容"
 modified: 2018-06-26
 tags: [Unite Tokyo 2018, Unity, Shader, 笔记]
 image:
-  feature: unite\toonShader\cover.jpg
+  feature: 20180620_01_01.webp
 ---
 
 # 【Unite Tokyo 2018】ToonShader对话环节#1『RealtimeToonShader彻谈』Part3
@@ -41,7 +41,7 @@ Part2：[【Unite Tokyo 2018】ToonShader对话环节#1『RealtimeToonShader彻�
 - 虽然UE4是默认延迟渲染，但是在实际开发的时候其实只是在Emissive通道内进行最终输出，其他通道都没有使用，所以其实完全没有活用延迟渲染的特性。
 
 <figure>
-	<a href="/images/unite/toonShader/GGxShader.jpg"><img src="/images/unite/toonShader/GGxShader.jpg" alt=""></a>
+	<a href="/images/20180626_01_01.webp"><img src="/images/20180626_01_01.webp" alt=""></a>
 	<figcaption>Shader的前四个通道值都是0</figcaption>
 </figure>
 
@@ -76,7 +76,7 @@ Part2：[【Unite Tokyo 2018】ToonShader对话环节#1『RealtimeToonShader彻�
 #### 在使用背面挤出描边法时候的小技巧(以GGXrd为例)
 
 <figure>
-	<a href="/images/unite/toonShader/outLine.jpg"><img src="/images/unite/toonShader/outLine.jpg" alt=""></a>
+	<a href="/images/20180626_01_02.webp"><img src="/images/20180626_01_02.webp" alt=""></a>
 	<figcaption>理想的边界效果</figcaption>
 </figure>
 
@@ -93,7 +93,7 @@ Part2：[【Unite Tokyo 2018】ToonShader对话环节#1『RealtimeToonShader彻�
 #### 描边效果的重要性
 
 <figure>
-	<a href="/images/unite/toonShader/outLineCP.jpg"><img src="/images/unite/toonShader/outLineCP.jpg" alt=""></a>
+	<a href="/images/20180626_01_03.webp"><img src="/images/20180626_01_03.webp" alt=""></a>
 	<figcaption>描边效果对比</figcaption>
 </figure>
 

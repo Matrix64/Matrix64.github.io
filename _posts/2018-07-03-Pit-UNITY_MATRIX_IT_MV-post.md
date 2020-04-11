@@ -41,7 +41,7 @@ float4 viewPos = float4(UnityObjectToViewPos(v.vertex),1);
 但是计算出来的结果总是觉得怪怪的，尤其是当模型从视角中心像屏幕边缘移动的时候，甚至会出现边界消失的情况
 
 <figure>
-	<a href="/images/missOutline.jpg"><img src="/images/missOutline.jpg" alt=""></a>
+	<a href="/images/20180703_01_01.webp"><img src="/images/20180703_01_01.webp" alt=""></a>
 	<figcaption>怪怪的描边效果</figcaption>
 </figure>
 
@@ -50,14 +50,14 @@ float4 viewPos = float4(UnityObjectToViewPos(v.vertex),1);
 于是我又尝试不使用Unity的推荐写法，直接用UNITY_MATRIX_MV来转换,看起来似乎好多了
 
 <figure>
-	<a href="/images/missOutline2.jpg"><img src="/images/missOutline2.jpg" alt=""></a>
+	<a href="/images/20180703_01_02.webp"><img src="/images/20180703_01_02.webp" alt=""></a>
 	<figcaption>正常多了的描边效果</figcaption>
 </figure>
 
 但是当模型出现非等比缩放的时候，问题再次出现
 
 <figure>
-	<a href="/images/missOutline3.jpg"><img src="/images/missOutline3.jpg" alt=""></a>
+	<a href="/images/20180703_01_03.webp"><img src="/images/20180703_01_03.webp" alt=""></a>
 	<figcaption>怪怪的描边效果2</figcaption>
 </figure>
 
@@ -74,7 +74,7 @@ float4 viewPos = float4(UnityObjectToViewPos(v.vertex),1);
 首先在分析法线之前，我们知道在转换法线信息的同时，也会需要转换模型的切线信息，通常情况下切线与模型的纹理空间对其，与法线方向垂直。
 
 <figure>
-	<a href="/images/tangent.jpg"><img src="/images/tangent.jpg" alt=""></a>
+	<a href="/images/20180703_01_04.webp"><img src="/images/20180703_01_04.webp" alt=""></a>
 	<figcaption>法线与切线</figcaption>
 </figure>
 
@@ -87,7 +87,7 @@ $$
 这种变换在模型处于非同一缩放状态时，法线向量可能会不与模型表面垂直：
 
 <figure>
-	<a href="/images/AToB.jpg"><img src="/images/AToB.jpg" alt=""></a>
+	<a href="/images/20180703_01_05.webp"><img src="/images/20180703_01_05.webp" alt=""></a>
 	<figcaption>非同一缩放下空间变换产生的法线偏移</figcaption>
 </figure>
 
@@ -137,7 +137,7 @@ $$
 也就是说，当使用**原变换矩阵的逆转置矩阵**就可以得到正确的结果。
 
 <figure>
-	<a href="/images/rightOutline.jpg"><img src="/images/rightOutline.jpg" alt=""></a>
+	<a href="/images/20180703_01_06.webp"><img src="/images/20180703_01_06.webp" alt=""></a>
 	<figcaption>正确的描边效果</figcaption>
 </figure>
 

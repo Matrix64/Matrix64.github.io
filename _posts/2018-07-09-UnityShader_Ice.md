@@ -5,7 +5,7 @@ description: "本篇记录了一个完整的冰冻shader"
 modified: 2018-07-09
 tags: [Unity, Shader]
 image:
-  feature: /shader_ice_title.jpg
+  feature: 20180709_01_01.webp
 ---
 
 最近花了点时间在尝试用shaderForge来做前期的shader效果测试，毕竟比起直接用代码来测试更省时间，效果满意之后再参考shaderForge逻辑框架进行真正的代码编写，中途说不定也能得到一些意料之外的效果，这次我就记录了一个冰冻效果shader的制作过程。
@@ -13,7 +13,7 @@ image:
 先上shaderForge:
 
 <figure>
- <a href="/images/shader_ice_full.jpg"><img src="/images/shader_ice_mini.jpg" alt=""></a>
+ <a href="/images/20180709_01_02.webp"><img src="/images/20180709_01_03.webp" alt=""></a>
  <figcaption>整体思路图</figcaption>
 </figure>
 

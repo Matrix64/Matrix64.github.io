@@ -5,7 +5,7 @@ description: "本篇记录了摄影建模工作流程的操作过程"
 modified: 2018-08-06
 tags: [RealityCapture, Photogrammetry]
 image:
-  feature: /0806_PhotogrammetryPipeline_Title.jpg
+  feature: 20180802_01_01.webp
 ---
 
 # 摄影测量法 / Photogrammetry
@@ -17,7 +17,7 @@ image:
 而且摄影测量使用得当的话，也会加速制作进程
 
 <figure>
- <img src="/images/0806_PhotogrammetryWorkCost.jpg" alt="">
+ <img src="/images/20180802_01_02.webp" alt="">
  <figcaption>工时比</figcaption>
 </figure>
 
@@ -38,19 +38,19 @@ image:
 核心还是使用RealityCapture来对照片进行点云计算，生成初步的3D模型与贴图，这一步里得到的数据看起来已经很接近最终效果了，只是点云生成的模型三角面数量庞大，无法直接使用。
 
 <figure>
- <a href="/images/0806_Photogrammetry_RealityCapture_full.jpg"><img src="/images/0806_Photogrammetry_RealityCapture_mini.jpg" alt=""></a>
+ <a href="/images/20180802_01_03.webp"><img src="/images/20180802_01_04.webp" alt=""></a>
  <figcaption>RealityCapture截图</figcaption>
 </figure>
 
 之后导出高模到Zbrush中进行减面处理，优化模型拓扑结构。在maya中进行低模修复操作，补洞，修复错误点等等。
 
 <figure>
- <a href="/images/0806_Photogrammetry_ZBrush_full.jpg"><img src="/images/0806_Photogrammetry_ZBrush_mini.jpg" alt=""></a>
+ <a href="/images/20180802_01_05.webp"><img src="/images/20180802_01_06.webp" alt=""></a>
  <figcaption>在ZBrush中约有3.499Million个顶点</figcaption>
 </figure>
 
 <figure>
- <a href="/images/0806_Photogrammetry_Maya_full.jpg"><img src="/images/0806_Photogrammetry_Maya_mini.jpg" alt=""></a>
+ <a href="/images/20180802_01_07.webp"><img src="/images/20180802_01_08.webp" alt=""></a>
  <figcaption>重构后在Maya中约有7.5万个顶点，依旧是个不小的数目</figcaption>
 </figure>
 
@@ -65,15 +65,15 @@ image:
 然后下面就是我在八猴里的一些预览效果图了：
 
 <figure>
- <a href="/images/0806_PhotogrammetryPipeline_Title.jpg"><img src="/images/0806_PhotogrammetryPipeline_mini.jpg" alt=""></a>
+ <a href="/images/20180802_01_01.webp"><img src="/images/20180802_01_01.webp" alt=""></a>
 </figure>
 
 <figure>
- <a href="/images/0806_Photogrammetry_Show2_full.jpg"><img src="/images/0806_Photogrammetry_Show2_mini.jpg" alt=""></a>
+ <a href="/images/20180802_01_09.webp"><img src="/images/20180802_01_10.webp" alt=""></a>
 </figure>
 
 <figure>
- <a href="/images/0806_Photogrammetry_Show3_full.jpg"><img src="/images/0806_Photogrammetry_Show3_mini.jpg" alt=""></a>
+ <a href="/images/20180802_01_11.webp"><img src="/images/20180802_01_12.webp" alt=""></a>
 </figure>
 
 更多角度的图片就放在[A站](https://www.artstation.com/artwork/x8Jr1)了。
