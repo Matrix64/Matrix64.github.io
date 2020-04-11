@@ -65,10 +65,6 @@ image:
 然后下面就是我在八猴里的一些预览效果图了：
 
 <figure>
- <a href="/images/20180802_01_01.webp"><img src="/images/20180802_01_01.webp" alt=""></a>
-</figure>
-
-<figure>
  <a href="/images/20180802_01_09.webp"><img src="/images/20180802_01_10.webp" alt=""></a>
 </figure>
 
